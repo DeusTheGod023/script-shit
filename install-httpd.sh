@@ -3,6 +3,8 @@
 echo "Start Sript"
 echo "Ignore this shit"
 
+yum -y install vim
+
 yum -y install httpd
 systemctl start httpd
 systemctl status httpd
